@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Guide</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder="Enter Movie Name Here"
+          id="movie-name"
+          value="83"
+        />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <div id="result">
+        <div class="info">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg"
+            alt=""
+            class="poster"
+            id="movie-image"
+          />
+          <div>
+            <h2 id="title">The Dark Knight</h2>
+            <div class="rating">
+              <img src="star-icon.svg" alt="" />
+              <h4 id="rating">9.0</h4>
+            </div>
+            <div class="details">
+              <span>PG-13</span>
+              <span>200B</span>
+              <span id="duration">152 mins</span>
+            </div>
+            <div class="genre">
+              <div id="Genres">Action</div>
+              <div id="Genre1">Action</div>
+              <div id="Genres2">Action</div>
+            </div>
+          </div>
+        </div>
+        <h3>Plot :</h3>
+        <p id="plot">
+          When the menace known as the Joker wreaks havoc and chaos on the
+          people of Gotham, Batman must accept one of the greatest psychological
+          and physical tests of his ability to fight injustice.
+        </p>
+        <h3>Cast :</h3>
+        <p id="cast">Christian Bale, Heath Ledger, Aaron Leckhart</p>
+      </div>
+    </div>
+    <script src="key.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
